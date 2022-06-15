@@ -4,7 +4,7 @@ const initialState = {
     cartItems: [],
     totalItems: 0,
     subTotal: 0,
-    shippingCharge: 100,
+    shippingCharge: 0,
     grandTotal: 0,
 };
 const cartSlice = createSlice({
@@ -39,7 +39,7 @@ const cartSlice = createSlice({
         clearCart(state) {
             state.cartItems = [];
         },
-        getTotal(state, action) {
+        getTotal(state) {
             let { total, quantity } = state.cartItems.reduce((cartTotal, cartItem) => {
                 const { price, cartQuantity } = cartItem;
                 const itemTotal = price * cartQuantity;
@@ -54,7 +54,9 @@ const cartSlice = createSlice({
             })
 
             state.totalItems = quantity;
-            state.subTotal = total;
+            state.subTotal = total.toFixed(2);
+            state.shippingCharge = 100;
+            state.grandTotal = (state.shippingCharge + total).toFixed(2);
         }
     },
 

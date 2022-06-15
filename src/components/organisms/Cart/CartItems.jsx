@@ -53,7 +53,9 @@ const CartItems = () => {
                       </button>
                     </span>
                   </p>
-                  <p>Price: BDT {data?.price * data?.cartQuantity}</p>
+                  <p>
+                    Price: BDT {(data?.price * data?.cartQuantity).toFixed(2)}
+                  </p>
                 </div>
               </div>
               <div>
