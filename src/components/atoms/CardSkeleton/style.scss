@@ -1,0 +1,38 @@
+.card_skeleton {
+    border: 1px solid rgb(196, 196, 196);
+    width: 270px;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px #00000016;
+    margin: 8px auto 8px auto;
+    background-color: #6e6e6eb7;
+    .image {
+        margin: 0.625rem auto;
+        display: block;
+        width: 270px;
+        height: 220px;
+        background-color: #d5d5d5a7;
+        border-radius: 5px;
+    }
+    .title {
+        padding: 1rem 0;
+        margin-top: 1rem;
+        background-color: #d5d5d5a7;
+        border-radius: 5px;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+        .price {
+            padding: 1rem 2.5rem;
+            background-color: #d5d5d5a7;
+            border-radius: 5px;
+        }
+        .button {
+            padding: 1rem 3rem;
+            background-color: #d5d5d5a7;
+            border-radius: 5px;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+@import "./scss/variables";
+p,
+h4,
+h5,
+h6,
+h2,
+h1 {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.btn {
+    background-color: $primary;
+    padding: 0.625rem 1rem;
+    color: $white;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    &:focus {
+        box-shadow: 0 0px 10px #007d70b9;
+        transition: all 0.3s;
+    }
+}
+
+.modal-backdrop {
+    z-index: 1056;
+}

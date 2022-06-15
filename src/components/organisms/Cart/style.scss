@@ -1,0 +1,21 @@
+.cart_items_wrapper {
+    margin: 1rem;
+    margin-left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    padding: 0.255rem 2rem 0.255rem 7px;
+    border: 1px solid rgba(126, 126, 126, 0.23);
+    .cart_item_btn {
+        border: 1px solid #0000002c;
+        border-radius: 2px;
+        padding: 2px 10px;
+    }
+    p {
+        font-size: 0.875rem;
+    }
+    .title {
+        font-weight: 500;
+    }
+}

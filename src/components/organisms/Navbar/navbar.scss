@@ -1,0 +1,11 @@
+@import "../../../scss/variables";
+.navigation_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px #00000025;
+    position: sticky;
+    top: 0;
+    background-color: $primary;
+    padding: 0.825rem 3rem;
+}
