@@ -1,4 +1,4 @@
-@import "../../../scss/variables";
+@import '../../../scss/variables';
 .sidebar_wrapper {
     width: 405px;
     overflow-y: auto;
@@ -7,11 +7,14 @@
     top: 0;
     bottom: 0;
     background-color: $white;
-    z-index: 9999;
+    z-index: 999 !important;
     overflow: hidden;
     transition: right 0.2s ease-in-out;
     @media only screen and (max-width: 425px) {
         width: 350px;
+        .CloseBtn {
+            margin-left: 40px !important;
+        }
     }
     .sidebar_header {
         width: 100%;
@@ -45,5 +48,21 @@
         width: 100%;
         display: block;
         padding: 1rem;
+    }
+    .CloseBtn {
+        position: absolute;
+        right: 10px;
+        z-index: 9999;
+        border: 1px solid #eeeeee;
+        background-color: #ffffff;
+        border-radius: 50%;
+        width: 44px;
+        height: 44px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        box-shadow: 0px 0px 6px 5px #0000003f;
     }
 }

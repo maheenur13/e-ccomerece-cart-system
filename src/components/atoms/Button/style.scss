@@ -1,0 +1,22 @@
+@import '../../../scss/variables';
+.btn {
+    background-color: $primary;
+    padding: 0.625rem 1rem;
+    color: $white;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    &:focus {
+        box-shadow: 0 0px 10px #007d70b9;
+        transition: all 0.3s;
+    }
+    @media only screen and (max-width: 499px) {
+        padding: 0.445rem 0.875rem;
+        font-size: 0.825rem;
+    }
+    @media only screen and (max-width: 445px) {
+        padding: 0.555rem 0.985rem;
+        font-size: 0.755rem;
+    }
+}

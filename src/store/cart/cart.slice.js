@@ -46,7 +46,6 @@ const cartSlice = createSlice({
 
                 cartTotal.total += itemTotal;
                 cartTotal.quantity += cartQuantity;
-
                 return cartTotal;
             }, {
                 total: 0,

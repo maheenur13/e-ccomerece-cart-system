@@ -5,4 +5,19 @@
     border-radius: 5px;
     box-shadow: 0px 2px 5px #00000016;
     margin: 8px auto 8px auto;
+    @media only screen and (max-width: 768px) {
+        width: 240px;
+    }
+    @media only screen and (max-width: 580px) {
+        width: 200px;
+    }
+    @media only screen and (max-width: 499px) {
+        width: 165px;
+    }
+    @media only screen and (max-width: 445px) {
+        width: 145px;
+    }
+    @media only screen and (max-width: 425px) {
+        width: 135px;
+    }
 }

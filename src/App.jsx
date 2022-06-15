@@ -1,7 +1,5 @@
-import { useEffect } from "react";
-import "./App.scss";
-import Homepage from "./pages/Homepage";
-import { getCartTotalValues } from "./store/actions";
+import './App.scss';
+import Homepage from './pages/Homepage';
 
 const App = () => {
   return (
