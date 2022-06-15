@@ -6,6 +6,8 @@ My Github Profile [Click to View](https://github.com/maheenur13)
 
 # Deploy Link
 
+- I used Netlify to deploy this site.
+
 > [click To view](https://e-commerce-cart-system.netlify.app/)
 
 # Tools and Technologies
@@ -17,13 +19,18 @@ My Github Profile [Click to View](https://github.com/maheenur13)
 - Redux Persist
 - nookies
 
-# Available Scripts
-
-In the project directory, you can run:
+# Run this Project
 
 ### `npm start or Yarn Start`
 
 > I used Yarn for this project.
+
+- Open download the zip file.
+- Extract the file.
+- Open the folder with vs code.
+- Open the terminal and run the command **`yarn`**
+- Then Installation process type **`yarn start`** in terminal to run the project.
+- It wil automatically open with you default browser.
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
