@@ -11,14 +11,11 @@ export const DrawerSidebar = (props) => {
   const BackdropOpened = () => {
     const backdrop = document.createElement('div');
     backdrop.id = 'DrawerSidebarBackdrop';
-    backdrop.className = 'modal-backdrop show';
     if (!closeButton) backdrop.addEventListener('click', onHide);
     document.body.appendChild(backdrop);
-    document.querySelector('body').classList.add('modal-open');
   };
 
   const BackdropClosed = () => {
-    document.querySelector('body').classList.remove('modal-open');
     document?.querySelector('#DrawerSidebarBackdrop')?.remove();
   };
 
